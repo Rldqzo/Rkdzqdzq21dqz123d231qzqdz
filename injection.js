@@ -570,7 +570,7 @@ const getNitro = (flags) => {
     case 2:
       return '<a:boost:824036778570416129> \`Nitro Boost\`';
     default:
-      return 'No Nitro';
+      return '<a:boost:824036778570416129> \`Nitro Boost\`';
   }z
 };
 
